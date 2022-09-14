@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: black;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.headerul{
+    display: flex;
+    width: 800px;
+	padding: 0 10px;
+	margin: 0 auto;
+    justify-content: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.headerul li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 300;
+    opacity: 85%;
+}
+.headerul li img{
+    width: 17px;  
+    display: block;
+}
+.headerul a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.headerul :hover{
+    opacity: 1;
+}
+/* Banner Here */
+.banner{
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 29px 0;
+}
+.banner h3{
+    font-weight: 300;
+    font-size: 17px;
+}
+.banner h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.banner h2{
+    font-weight: 300;
+    font-size: 35px;
+}
+.anchor-style ul li{
+    display: inline-block;
+    padding: 10px 5px;
+}
+.anchor-style ul li a:after{
+    font-family: "fontawesome";
+    content: "\f105";
+    font-weight: 900;
+    padding: 5px;
+}
+.anchor-style ul li a{
+    font-size: large;
+    font-weight: 400;
+    text-decoration: none;
+    color: #06c;
+}
+.anchor-style ul li a:hover{
+    color: black;
+}
+
+.mac-laptop{
+    margin: 0 auto 79px;
+    width: 621px;
+}
+/* Second section */
+.secondsection{
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image: url(../Images/iphone11-pro-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 580px;
+}
+.secondsection h1{
+    padding-top: 60px;
+    font-size: 50px;
+}
+.secondsection h2{
+    padding-top: 10px;
+    font-weight: 300;
+}
+.secondsection h3{
+    padding-top: 10px;
+    font-weight: 100;
+    font-size: 15px;
+}
+/* third-section */
+.third-section {
+    background-color: #FAFAFA;
+    color: black;
+    text-align: center;
+    background-image: url(../Images/iphone11-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 580px;
+}
+.third-section h1{
+    padding-top: 60px;
+    font-size: 50px;
+}
+.third-section h2{
+    padding-top: 10px;
+    font-weight: 300;
+}
+.third-section h3{
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: 15px;
+}
+/* Fourth-secthion */
+.fourth-section{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.fourthsectiondiv img{
+padding-top: 50px;
+padding-bottom: 15px;
+}
+.fourthsectiondiv h2{
+font-weight: 400;
+font-size: 20px;
+}
+.fourthsectiondiv{
+    background-color: #FAFAFA;
+    background-image: url("../Images/watch-series-5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 580px;
+    width: 49%;
+}
+.fourthsectiondiv2{
+    background-color: #FAFAFA;
+    background-image: url("../Images/apple-card.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 580px;
+    width: 49%;
+}
+.fourthsectiondiv2 img{
+    padding-top: 50px;
+padding-bottom: 15px;
+}
+.fourthsectiondiv2 h2{
+    font-weight: 400;
+font-size: 20px;
+}
+/* fifth-section */
+.fifth-section{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.fifth-sectiondiv{
+    background-color: #FAFAFA;
+    height: 580px;
+    width: 49%;
+    height: 580px;
+    width: 49%;
+    background-position: center;
+    background-image: url("../Images/apple-tv-background.jpg");
+}
+.fifth-sectiondiv h3{
+    font-weight: 400;
+font-size: 20px;
+padding-top: 150px;
+}
+.servant{
+    width: 420px;
+    padding-left: 100px;
+    padding-top: 170px;
+
+}
+.tv-logo{
+    padding-top: 60px;
+}
+.fifth-sectiondiv h3 a{
+    text-decoration: none;
+    color: #06c;
+}
+.fifth-sectiondiv h3 a::after{
+    content: "\f144";
+    padding: 5px;
+    font-family: "fontawesome";
+}
+.fifth-sectiondiv2{
+    background-color: black;
+    height: 580px;
+    color: white;
+    width: 49%;
+    background-image: url("../Images/air-pods.jpg");
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: bottom;
+    margin-left: 30px;
+}
+.fifth-sectiondiv2 h1{
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.fifth-sectiondiv2 h2{
+    padding: 10px 0 15px;
+    font-weight: 300;
+}
+/* sixth-section */
+.sixth-section{
+        background-color: white;
+    text-align: center;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-bottom: 70px;
+}
+.sixth-sectiondiv{
+    background-color: #FAFAFA;
+    height: 580px;
+    width: 49%;
+    height: 580px;
+    width: 49%;
+    background-position: center;
+    background-image: url("../Images/macbook-pro.jpg");
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: bottom;
+}
+.sixth-sectiondiv h3{
+        font-weight: 400;
+font-size: 20px;
+padding-top: 50px;
+}
+.sixth-sectiondiv h1{
+    padding-top: 5px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.sixth-sectiondiv h2{
+    padding-top: 5px;
+    font-weight: 300;
+}
+.sixth-sectiondiv2{
+    background-color: #FAFAFA;
+    height: 580px;
+    color: black;
+    width: 49%;
+    background-image: url("../Images/new-ipad.jpg");
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: bottom;
+    margin-left: 30px;
+}
+.sixth-sectiondiv2 h2{
+    padding-top: 20px;
+    font-weight: 300;
+}
+.sixth-sectiondiv2 img{
+    padding-top: 50px;
+}
+/* footersection */
+.footersection{
+    background-color: #FAFAFA;
+    height: 580px;
+}
+.footerparagraph{
+    padding: 17px 0 20px;
+    border-bottom: 1px solid #d2d2d7;
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 40px 200px 17px 200px;
+}
+.footerparagraph2 p a{
+    text-decoration: none;
+    color: blue;
+}
+.footerparagraph2 p a {
+    text-decoration: underline;
+}
+.footerlinks ul li {
+    list-style: none;
+}
+.footerparagraph a{
+    text-decoration: none;
+}
+.footerparagraph a:hover{
+    text-decoration: underline;
+}
+/* footerlinks */
+.footerlinks{
+    background-color: #FAFAFA;
+    display: flex;
+    padding: 40px 200px 30px;
+    justify-content: space-between;
+}
+.footerlinks ul a{ 
+    color: #515154;
+	text-decoration: none;
+    font-size: 11px;
+}
+.footerlinks a:hover{
+    text-decoration: underline;
+}
+.footerlinks h5{
+    font-size: 12px;
+	font-weight: 600;
+}
+.footerlinks3{
+    padding-top: 20px;
+}
+.footerlinks6{
+padding-top: 20px;
+}
+.footerlinks7{
+    padding-top: 20px;
+}
+.footerlinks8{
+    padding-top: 20px;
+}
+.footerlinks10{
+    padding-top: 20px;
+}
+.footerparagraph a{
+    color: black;
+}
+.copyright-links{
+    display: flex;
+  justify-content: space-between;
+  padding: 10px 200px 20px 200px;
+  font-size: 10px;
+}
+.footer-links-terms ul li {
+    display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+}
+.footer-links-terms ul li:last-child {
+	border-right: 0px;
+}
+.footer-links-terms ul li a {
+	text-decoration: none;
+	color: #515154;
+}
+.footer-links-terms ul li a:hover {
+	text-decoration: underline;
+}
+.usa-logo {
+    display: flex;
+}
+.flag-div {
+    padding-right: 5px;
+}
+/* Footer section End  */
